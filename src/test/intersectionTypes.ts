@@ -17,3 +17,4 @@ function extend<First, Second>(first: First, second: Second): First & Second {
 
     return  result as First & Second;
 }
+
